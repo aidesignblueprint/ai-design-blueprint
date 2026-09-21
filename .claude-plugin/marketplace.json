@@ -1,0 +1,17 @@
+{
+  "name": "aidesignblueprint",
+  "owner": {
+    "name": "AI Design Blueprint",
+    "url": "https://aidesignblueprint.com"
+  },
+  "description": "Public agentic AI doctrine tools plus authenticated architecture, design, and spec validators.",
+  "plugins": [
+    {
+      "name": "ai-design-blueprint",
+      "source": "./",
+      "description": "Public agentic AI doctrine tools plus authenticated architecture, design, and spec validators.",
+      "version": "1.0.0",
+      "license": "MIT"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "aidesignblueprint",
+  "interface": {
+    "displayName": "AI Design Blueprint"
+  },
+  "plugins": [
+    {
+      "name": "ai-design-blueprint",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

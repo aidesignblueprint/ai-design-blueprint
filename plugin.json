@@ -1,0 +1,37 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ai-design-blueprint",
+  "version": "1.0.0",
+  "description": "Public agentic AI doctrine tools plus authenticated architecture, design, and spec validators.",
+  "author": {
+    "name": "AI Design Blueprint",
+    "url": "https://aidesignblueprint.com"
+  },
+  "homepage": "https://aidesignblueprint.com/en/for-agents",
+  "repository": "https://github.com/aidesignblueprint/ai-design-blueprint",
+  "license": "MIT",
+  "keywords": [
+    "agentic-ai",
+    "ai-design",
+    "design-principles",
+    "architecture-review",
+    "mcp"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "AI Design Blueprint",
+        "shortDescription": "Governance doctrine for agentic AI. Validate your builds against reviewable, auditable standards.",
+        "developerName": "AI Design Blueprint",
+        "websiteURL": "https://aidesignblueprint.com/en/for-agents",
+        "privacyPolicyURL": "https://aidesignblueprint.com/en/privacy",
+        "termsOfServiceURL": "https://aidesignblueprint.com/en/terms",
+        "defaultPrompt": [
+          "Search the AI Design Blueprint principles for guidance on approval gates before an irreversible action.",
+          "List the AI Design Blueprint principle clusters and summarise what each one governs."
+        ],
+        "logo": "./assets/logo.svg"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "ai-design-blueprint",
+  "displayName": "AI Design Blueprint",
+  "version": "1.0.0",
+  "description": "Public agentic AI doctrine tools plus authenticated architecture, design, and spec validators.",
+  "author": {
+    "name": "AI Design Blueprint",
+    "url": "https://aidesignblueprint.com"
+  },
+  "homepage": "https://aidesignblueprint.com/en/for-agents",
+  "repository": "https://github.com/aidesignblueprint/ai-design-blueprint",
+  "license": "MIT",
+  "keywords": [
+    "agentic-ai",
+    "ai-design",
+    "design-principles",
+    "architecture-review",
+    "mcp"
+  ],
+  "agents": [
+    "./claude-code/agents/spec-designer.md",
+    "./claude-code/agents/spec-engineer.md",
+    "./claude-code/agents/spec-pm.md"
+  ]
+}

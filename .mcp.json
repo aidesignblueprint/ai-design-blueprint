@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "aidesignblueprint": {
+      "type": "http",
+      "url": "https://aidesignblueprint.com/mcp"
+    }
+  }
+}
