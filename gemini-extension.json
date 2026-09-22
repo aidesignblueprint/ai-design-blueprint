@@ -1,14 +1,11 @@
 {
   "name": "ai-design-blueprint",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Public agentic AI doctrine tools plus authenticated architecture, design, and spec validators.",
   "contextFileName": "GEMINI.md",
   "mcpServers": {
     "aidesignblueprint": {
-      "httpUrl": "https://aidesignblueprint.com/mcp",
-      "headers": {
-        "X-AIDB-Install": "plugin/ai-design-blueprint/1.0.2"
-      }
+      "httpUrl": "https://aidesignblueprint.com/mcp?install=plugin/ai-design-blueprint/1.0.3"
     }
   }
 }

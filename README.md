@@ -57,10 +57,10 @@ repository. Install it from the plugin marketplace inside your editor.
 - Documentation: https://aidesignblueprint.com/en/for-agents
 - Plans and access: https://aidesignblueprint.com/en/pricing
 - Data handling: https://aidesignblueprint.com/en/for-agents/trust-and-data-handling
-- Measurement: every request this plugin makes to the MCP server carries one
-  fixed header, `X-AIDB-Install: plugin/ai-design-blueprint/<version>`, so
-  plugin use can be counted apart from other clients. It names the plugin and
-  its version, never you or your machine.
+- Measurement: the MCP address this plugin connects to ends in one fixed
+  marker, `?install=plugin/ai-design-blueprint/<version>`, so plugin use can be
+  counted apart from other clients. It names the plugin and its version, never
+  you or your machine.
 - Privacy: https://aidesignblueprint.com/en/privacy
 - Terms: https://aidesignblueprint.com/en/terms
 - Support: https://aidesignblueprint.com/en/support
