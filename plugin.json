@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "ai-design-blueprint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Public agentic AI doctrine tools plus authenticated architecture, design, and spec validators.",
   "author": {
     "name": "AI Design Blueprint",

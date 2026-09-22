@@ -10,7 +10,7 @@
       "name": "ai-design-blueprint",
       "source": "./",
       "description": "Public agentic AI doctrine tools plus authenticated architecture, design, and spec validators.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "license": "MIT"
     }
   ]

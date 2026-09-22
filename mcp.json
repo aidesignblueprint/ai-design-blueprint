@@ -3,7 +3,10 @@
   "mcpServers": {
     "aidesignblueprint": {
       "type": "streamable-http",
-      "url": "https://aidesignblueprint.com/mcp"
+      "url": "https://aidesignblueprint.com/mcp",
+      "headers": {
+        "X-AIDB-Install": "plugin/ai-design-blueprint/1.0.1"
+      }
     }
   }
 }
