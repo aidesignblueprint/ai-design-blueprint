@@ -1,0 +1,41 @@
+{
+  "name": "ai-design-blueprint",
+  "version": "1.0.2",
+  "description": "Public agentic AI doctrine tools plus authenticated architecture, design, and spec validators.",
+  "author": {
+    "name": "AI Design Blueprint",
+    "url": "https://aidesignblueprint.com"
+  },
+  "homepage": "https://aidesignblueprint.com/en/for-agents",
+  "repository": "https://github.com/aidesignblueprint/ai-design-blueprint",
+  "license": "MIT",
+  "keywords": [
+    "agentic-ai",
+    "ai-design",
+    "design-principles",
+    "architecture-review",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "AI Design Blueprint",
+    "shortDescription": "Governance doctrine for agentic AI. Validate your builds against reviewable, auditable standards.",
+    "longDescription": "Public agentic AI doctrine tools plus authenticated architecture, design, and spec validators. The doctrine tools (principles, clusters, examples, guides) work without an account. The validators (architect.validate, design.validate, spec.validate) need a signed-in AI Design Blueprint account with an active Pro, Pro Plus, Teams, or beta plan.",
+    "developerName": "AI Design Blueprint",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://aidesignblueprint.com/en/for-agents",
+    "privacyPolicyURL": "https://aidesignblueprint.com/en/privacy",
+    "termsOfServiceURL": "https://aidesignblueprint.com/en/terms",
+    "brandColor": "#B83B01",
+    "defaultPrompt": [
+      "Search the AI Design Blueprint principles for guidance on approval gates before an irreversible action.",
+      "List the AI Design Blueprint principle clusters and summarise what each one governs."
+    ],
+    "logo": "./assets/logo.svg"
+  }
+}

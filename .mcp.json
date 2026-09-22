@@ -4,7 +4,7 @@
       "type": "http",
       "url": "https://aidesignblueprint.com/mcp",
       "headers": {
-        "X-AIDB-Install": "plugin/ai-design-blueprint/1.0.1"
+        "X-AIDB-Install": "plugin/ai-design-blueprint/1.0.2"
       }
     }
   }

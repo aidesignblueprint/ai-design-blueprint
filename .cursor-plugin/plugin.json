@@ -1,7 +1,7 @@
 {
   "name": "ai-design-blueprint",
   "displayName": "AI Design Blueprint",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Public agentic AI doctrine tools plus authenticated architecture, design, and spec validators.",
   "author": {
     "name": "AI Design Blueprint",
