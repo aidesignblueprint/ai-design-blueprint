@@ -1,6 +1,6 @@
 # AI Design Blueprint
 
-Public agentic AI doctrine tools plus authenticated architecture, design, and spec validators.
+Doctrine and validators for governable agentic AI products.
 
 This repository is generated. Do not open pull requests against it; the source
 lives in the AI Design Blueprint platform and is republished from there. Found an

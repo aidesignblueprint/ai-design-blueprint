@@ -4,12 +4,12 @@
     "name": "AI Design Blueprint",
     "url": "https://aidesignblueprint.com"
   },
-  "description": "Public agentic AI doctrine tools plus authenticated architecture, design, and spec validators.",
+  "description": "Doctrine and validators for governable agentic AI products.",
   "plugins": [
     {
       "name": "ai-design-blueprint",
       "source": "./",
-      "description": "Public agentic AI doctrine tools plus authenticated architecture, design, and spec validators.",
+      "description": "Doctrine and validators for governable agentic AI products.",
       "version": "1.0.3",
       "license": "MIT",
       "category": "development"
