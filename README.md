@@ -17,7 +17,7 @@ We route it back to the source.
 
 The doctrine tools (principles, clusters, examples, guides) work without an account.
 The validators (`architect.validate`, `design.validate`, `spec.validate`) need a
-signed-in AI Design Blueprint account with an active Pro, Pro Plus, Teams, or beta plan. Your tool
+signed-in AI Design Blueprint account with an active Pro, Pro Plus, Teams, Enterprise, beta, or trial plan. Your tool
 will ask you to sign in the first time you call one.
 
 ## Install

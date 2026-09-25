@@ -82,7 +82,7 @@ When the `aidesignblueprint` MCP server is connected, prefer live retrieval:
 
 ## Timeout recovery
 
-If your MCP client tool-call closes before `architect.validate`, `design.validate`, or `spec.validate` returns, the run still completes server-side. The first `notifications/progress` event fires at t=0 carrying the `run_id`; recover the result via `me.validation_history(run_id=...)` once the run completes. Per-user authorisation: returns only your own runs. Unavailable when `private_session=true` (nothing persists).
+If your MCP client tool-call closes before `architect.validate`, `design.validate`, or `spec.validate` returns, the run still completes server-side. The first `notifications/progress` event fires at t=0 carrying the `run_id`; recover the result via `me.validation_history(run_id=...)` once the run completes. Per-user authorisation: returns only your own runs. Unavailable when `private_session=true` (no run is stored; operational logs are still written).
 
 ## References
 

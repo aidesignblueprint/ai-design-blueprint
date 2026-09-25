@@ -127,7 +127,7 @@ The remaining gap on iter-2: P7 (inspectability) at sev 55; the audit trail is s
 |---|---|
 | Should I use consensus or single-shot? | Single-shot for iteration rounds. Consensus once, before you treat a run as your badge anchor. |
 | What chains rounds together? | Same `repository` string across calls. Different string = severed chain. |
-| Why didn't my second call see the first as prior? | Either you changed `repository`, OR you passed `private_session=true` on the first call (it's persisted but private_session-marked, lookup skips it). |
+| Why didn't my second call see the first as prior? | Either you changed `repository`, OR you passed `private_session=true` on the first call (no run is stored under a private session, so there is nothing to look up). |
 | Does a consensus run become the prior for the next validate? | Yes. The consolidated row participates in the lookup. The children don't (they're private_session). |
 | Can I skip the consensus checkpoint before certify? | Technically yes; cert will still run. Strategically no; without consensus you don't know if your 100/A is stable or a lucky single roll. |
 | Can I sketch the code under cert to save tokens? | No. Stub *imports*, but the enforcement branches themselves must be real and complete. A `# ...` placeholder is graded as a missing control, not as shorthand. |

@@ -21,7 +21,7 @@
   "interface": {
     "displayName": "AI Design Blueprint",
     "shortDescription": "Governance doctrine for agentic AI. Validate your builds against reviewable, auditable standards.",
-    "longDescription": "Doctrine and validators for governable agentic AI products. The doctrine tools (principles, clusters, examples, guides) work without an account. The validators (architect.validate, design.validate, spec.validate) need a signed-in AI Design Blueprint account with an active Pro, Pro Plus, Teams, or beta plan.",
+    "longDescription": "Doctrine and validators for governable agentic AI products. The doctrine tools (principles, clusters, examples, guides) work without an account. The validators (architect.validate, design.validate, spec.validate) need a signed-in AI Design Blueprint account with an active Pro, Pro Plus, Teams, Enterprise, beta, or trial plan.",
     "developerName": "AI Design Blueprint",
     "category": "Productivity",
     "capabilities": [
