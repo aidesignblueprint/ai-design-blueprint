@@ -1,9 +1,9 @@
 ---
 name: agentic-design-blueprint
-description: "Use the Agentic Design Blueprint when designing, reviewing, or implementing agentic AI products: tool use, approvals, orchestration, background work, trust surfaces, and human-in-the-loop workflows."
+description: "Use AI Design Blueprint when designing, reviewing, or implementing agentic AI products: tool use, approvals, orchestration, background work, trust surfaces, and human-in-the-loop workflows."
 ---
 
-# Agentic Design Blueprint
+# AI Design Blueprint
 
 Apply these principles before finalizing agentic UX, orchestration, tool calling, approvals, handoffs, and review logic.
 
